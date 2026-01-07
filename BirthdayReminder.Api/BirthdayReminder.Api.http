@@ -1,0 +1,6 @@
+@BirthdayReminder.Api_HostAddress = http://localhost:5098
+
+GET {{BirthdayReminder.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

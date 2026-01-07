@@ -1,0 +1,11 @@
+/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/bin/Debug/net8.0/BirthdayReminder.Domain.deps.json
+/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/bin/Debug/net8.0/BirthdayReminder.Domain.dll
+/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/bin/Debug/net8.0/BirthdayReminder.Domain.pdb
+/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/obj/Debug/net8.0/BirthdayReminder.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/obj/Debug/net8.0/BirthdayReminder.Domain.AssemblyInfoInputs.cache
+/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/obj/Debug/net8.0/BirthdayReminder.Domain.AssemblyInfo.cs
+/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/obj/Debug/net8.0/BirthdayReminder.Domain.csproj.CoreCompileInputs.cache
+/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/obj/Debug/net8.0/BirthdayReminder.Domain.dll
+/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/obj/Debug/net8.0/refint/BirthdayReminder.Domain.dll
+/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/obj/Debug/net8.0/BirthdayReminder.Domain.pdb
+/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/obj/Debug/net8.0/ref/BirthdayReminder.Domain.dll

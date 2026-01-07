@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Application/BirthdayReminder.Application.csproj": {}
+  },
+  "projects": {
+    "/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Application/BirthdayReminder.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Application/BirthdayReminder.Application.csproj",
+        "projectName": "BirthdayReminder.Application",
+        "projectPath": "/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Application/BirthdayReminder.Application.csproj",
+        "packagesPath": "/Users/toprakakdogan/.nuget/packages/",
+        "outputPath": "/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/toprakakdogan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/BirthdayReminder.Domain.csproj": {
+                "projectPath": "/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/BirthdayReminder.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/BirthdayReminder.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/BirthdayReminder.Domain.csproj",
+        "projectName": "BirthdayReminder.Domain",
+        "projectPath": "/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/BirthdayReminder.Domain.csproj",
+        "packagesPath": "/Users/toprakakdogan/.nuget/packages/",
+        "outputPath": "/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/toprakakdogan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

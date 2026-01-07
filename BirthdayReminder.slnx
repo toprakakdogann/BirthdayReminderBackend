@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BirthdayReminder.Api/BirthdayReminder.Api.csproj" />
+  <Project Path="BirthdayReminder.Application/BirthdayReminder.Application.csproj" />
+  <Project Path="BirthdayReminder.Domain/BirthdayReminder.Domain.csproj" />
+  <Project Path="BirthdayReminder.Infrastructure/BirthdayReminder.Infrastructure.csproj" />
+</Solution>
