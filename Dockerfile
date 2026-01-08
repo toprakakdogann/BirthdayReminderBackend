@@ -3,8 +3,10 @@ WORKDIR /src
 
 COPY . .
 
+# Solution yerine doğrudan API projesini restore et
 RUN dotnet restore BirthdayReminder.Api/BirthdayReminder.Api.csproj
 
+# API projesini publish et
 RUN dotnet publish BirthdayReminder.Api/BirthdayReminder.Api.csproj -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
