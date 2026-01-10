@@ -134,7 +134,7 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 builder.Services.AddDbContext<AppDbContext>(opt =>
-    opt.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
+    opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services
     .AddIdentityCore<AppUser>(opt =>
