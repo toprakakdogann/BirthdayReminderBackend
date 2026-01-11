@@ -9,3 +9,4 @@
 /Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/obj/Debug/net8.0/refint/BirthdayReminder.Domain.dll
 /Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/obj/Debug/net8.0/BirthdayReminder.Domain.pdb
 /Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/obj/Debug/net8.0/ref/BirthdayReminder.Domain.dll
+/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Domain/obj/Debug/net8.0/BirthdayReminder.Domain.sourcelink.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BirthdayReminder.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a85dc13fb875d78e316de8d5ff7811df0f274f52")]
 [assembly: System.Reflection.AssemblyProductAttribute("BirthdayReminder.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BirthdayReminder.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

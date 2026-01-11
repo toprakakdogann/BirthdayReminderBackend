@@ -13,3 +13,4 @@
 /Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Application/obj/Debug/net8.0/refint/BirthdayReminder.Application.dll
 /Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Application/obj/Debug/net8.0/BirthdayReminder.Application.pdb
 /Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Application/obj/Debug/net8.0/ref/BirthdayReminder.Application.dll
+/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Application/obj/Debug/net8.0/BirthdayReminder.Application.sourcelink.json

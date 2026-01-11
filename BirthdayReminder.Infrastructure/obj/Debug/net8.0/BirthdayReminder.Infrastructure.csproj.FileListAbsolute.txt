@@ -17,3 +17,4 @@
 /Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Infrastructure/obj/Debug/net8.0/BirthdayReminder.Infrastructure.pdb
 /Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Infrastructure/obj/Debug/net8.0/BirthdayReminder.Infrastructure.genruntimeconfig.cache
 /Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Infrastructure/obj/Debug/net8.0/ref/BirthdayReminder.Infrastructure.dll
+/Users/toprakakdogan/BirthdayReminder/BirthdayReminder.Infrastructure/obj/Debug/net8.0/BirthdayReminder.Infrastructure.sourcelink.json
