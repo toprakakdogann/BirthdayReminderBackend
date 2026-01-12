@@ -186,10 +186,10 @@ if (enableSwagger)
     app.UseSwaggerUI();
 }
 
-app.UseCors("client");
 app.UseExceptionHandler();
 
 app.UseHttpsRedirection();
+app.UseCors("client");
 
 app.UseAuthentication();
 app.UseRateLimiter();

@@ -33,6 +33,7 @@ public class AuthController : ControllerBase
     public record AuthResponse(string AccessToken, string RefreshToken);
 
     [HttpPost("register")]
+    [AllowAnonymous]
 
 [EnableRateLimiting("auth-register")]
     public async Task<ActionResult<AuthResponse>> Register(RegisterRequest req)
@@ -45,6 +46,7 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost("login")]
+    [AllowAnonymous]
 
 [EnableRateLimiting("auth-login")]
     public async Task<ActionResult<AuthResponse>> Login(LoginRequest req)
