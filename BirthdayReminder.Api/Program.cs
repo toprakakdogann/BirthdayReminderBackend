@@ -195,6 +195,14 @@ app.UseAuthentication();
 app.UseRateLimiter();
 
 app.UseAuthorization();
+app.MapGet("/", () => Results.Ok(new
+{
+    name = "BirthdayReminder API",
+    status = "ok",
+    docs = "/swagger",
+    health = "/health"
+}));
+
 
 app.MapControllers();
 
