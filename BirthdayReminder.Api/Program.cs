@@ -12,6 +12,14 @@ using BirthdayReminder.Api.Background;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("client", p =>
+        p.AllowAnyHeader()
+         .AllowAnyMethod()
+         .AllowAnyOrigin());
+});
+
 builder.Services.AddControllers();
 
 builder.Services.AddHostedService<RefreshTokenCleanupService>();
@@ -177,6 +185,8 @@ if (enableSwagger)
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("client");
 app.UseExceptionHandler();
 
 app.UseHttpsRedirection();
