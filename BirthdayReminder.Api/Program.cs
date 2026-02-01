@@ -179,7 +179,6 @@ builder.Services.AddAuthorization();
 var app = builder.Build();
 
 var enableSwagger = builder.Configuration.GetValue<bool>("Swagger:Enabled");
-
 if (enableSwagger)
 {
     app.UseSwagger();
@@ -188,13 +187,21 @@ if (enableSwagger)
 
 app.UseExceptionHandler();
 
-app.UseHttpsRedirection();
+// Render arkasında HTTPS yönlendirme bazen garip davranır.
+// Şimdilik kapatabilirsin veya ileride ForwardedHeaders ekleriz.
+// app.UseHttpsRedirection();
+
+app.UseRouting();
+
 app.UseCors("client");
 
 app.UseAuthentication();
+app.UseAuthorization();
+
 app.UseRateLimiter();
 
-app.UseAuthorization();
+app.MapControllers();
+
 app.MapGet("/", () => Results.Ok(new
 {
     name = "BirthdayReminder API",
@@ -202,8 +209,5 @@ app.MapGet("/", () => Results.Ok(new
     docs = "/swagger",
     health = "/health"
 }));
-
-
-app.MapControllers();
 
 app.Run();
